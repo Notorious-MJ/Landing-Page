@@ -1,0 +1,243 @@
+html {
+  background: url(../images/page-background.jpg)no-repeat center center fixed;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap:100px;
+}
+
+*{ box-sizing: border-box;
+   /* border:1PX solid cyan; */}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 15px;
+    padding:0;
+    line-height: 3.3;
+    text-align: center;
+    font-size: 25px;
+
+}
+li{
+    border: 1px solid none;
+    width:120px;
+    padding: 10px;
+    height:97px; 
+    
+    
+    
+    
+ 
+}
+li:hover{
+    cursor: pointer;
+    background-color: rgba(63, 63, 63, 0.664);
+    
+
+}
+nav{
+    width: 100%;
+    max-width: 390px;
+    min-width: 15vw;
+    height: 98px;
+    display: flex;
+    align-items: center;
+}
+
+.header{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #fff;
+    border-bottom: solid rgb(175, 175, 175);
+    height: 100px;
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Bebas Neue', cursive;
+    position: fixed;
+    
+}
+
+
+.logo{
+    width: 100%;
+    max-width: 100px;
+    height: 197px;
+
+}
+
+
+.footer{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #fff;
+    border-top: solid rgb(175, 175, 175);
+    height: 100px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-shrink: 0;
+
+}
+.content{
+    display: flex;
+    width: 80vw;
+    margin: auto;
+    justify-content:space-evenly;
+    gap: 40px;
+    flex-wrap: wrap-reverse;
+    margin-top:100px;
+}
+.shoe{
+    width: 100%; 
+    max-width: 700px;
+    height: auto;
+}
+.leftone{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    font-family: 'Bebas Neue', cursive;
+    width:100%;
+    max-width: 700px;
+    background-color:rgba(0, 0, 0, 0.692);
+    color: #fff;
+    border:solid none;
+    border-radius:7px;
+    align-self: center;
+    padding:25px;
+    flex: 1 0 auto; 
+    
+}
+
+.butt{
+
+    display: block;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(138, 138, 138);
+    text-align: center;
+    border: 1px solid none;
+    border-radius: 2px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 1.8;
+    color:inherit;
+}
+/* 3rd section */
+
+
+.content2{
+    
+    display:flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    gap: 50px;
+    padding:50px 0;
+    background-color:rgba(0, 0, 0, 0.692);
+    font-family: 'Bebas Neue', cursive;
+    flex-wrap: wrap;
+    flex:1;
+    
+
+
+}
+.title{
+    color:#fff;
+    font-size:35px;
+    font-weight: 700px;
+
+}
+
+.listimg{
+    width: 150px;
+    height: 150px;
+    border:5px solid rgb(91, 216, 87);
+    border-radius:10px;
+    flex-shrink: 1;
+}
+
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items: flex-end;
+    gap: 70px;
+    flex-shrink: 1;
+}
+.inlist{
+    display: flex;
+    gap: 7px;
+    flex-direction: column;
+    width: 150px;
+    color: #fff;
+    text-align:center;
+    
+}
+
+.content3{
+    font-family: 'Bebas Neue', cursive;
+    margin:auto;
+    color: #fff;
+    width: 60vw;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    flex-wrap: wrap;
+    text-shadow: 1px 1px 5px rgb(255, 255, 255);
+    
+
+}
+.qout{
+    
+    font-size: 20px;
+    flex-shrink: 1;
+
+}
+
+.hop{
+    text-align:right;
+    font-size: 20px;
+}
+
+.content4{
+    width: 40vw;
+    height: auto;
+    background-color: rgb(173, 172, 172);
+    display: flex;
+    border: 1px solid none;
+    border-radius: 5px;
+    margin: auto;
+    justify-content:space-evenly;
+    align-items: center;
+    font-family: 'Bebas Neue', cursive;
+    color: #fff;
+    padding: 30px;
+    flex-wrap: wrap;
+
+}
+.signup{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    flex-shrink:1;
+    
+}
+
+.content4 .butt{
+    background-color:rgb(113, 185, 100);
+}
